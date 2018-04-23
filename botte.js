@@ -25,4 +25,4 @@ return message.edit("**pong :ping_pong: = " + Math.round(endTime - startTime) + 
 }).catch(console.error);
 }});
 
-client.login(token)
+client.login(process.env.TOKEN);
